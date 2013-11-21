@@ -12,11 +12,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  // Override point for customization after application launch.
+  UIStoryboard *storyboard;
+  if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+  {
+    storyboard = [UIStoryboard storyboardWithName:@"IPadStoryboard" bundle:[NSBundle mainBundle]]; /* Device is iPad */
+  }
+  else {
+    storyboard = [UIStoryboard storyboardWithName:@"IPhoneStoryboard" bundle:[NSBundle mainBundle]];
+  }
+  UIViewController *vc =[storyboard instantiateInitialViewController];
+  
+  // Set root view controller and make windows visible
+  self.window.rootViewController = vc;
+  [self.window makeKeyAndVisible];
+  
+  NSString *destPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+  destPath = [destPath stringByAppendingPathComponent:@"highScore.plist"];
+  // If the file doesn't exist in the Documents Folder, copy it.
+  NSFileManager *fileManager = [NSFileManager defaultManager];
+  
+  if (![fileManager fileExistsAtPath:destPath]) {
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"highScore" ofType:@"plist"];
+    [fileManager copyItemAtPath:sourcePath toPath:destPath error:nil];
+  }
+  
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

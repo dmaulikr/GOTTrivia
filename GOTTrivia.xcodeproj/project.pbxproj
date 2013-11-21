@@ -19,6 +19,17 @@
 		CBA7D3BC183E6F8B0002B523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7D3A4183E6F8B0002B523 /* UIKit.framework */; };
 		CBA7D3C4183E6F8B0002B523 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3C2183E6F8B0002B523 /* InfoPlist.strings */; };
 		CBA7D3C6183E6F8B0002B523 /* GOTTriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA7D3C5183E6F8B0002B523 /* GOTTriviaTests.m */; };
+		CBA7D3D2183E6FF00002B523 /* IPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3D1183E6FF00002B523 /* IPadStoryboard.storyboard */; };
+		CBA7D3D4183E6FFF0002B523 /* IPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3D3183E6FFF0002B523 /* IPhoneStoryboard.storyboard */; };
+		CBA7D3D6183E70F50002B523 /* highScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3D5183E70F50002B523 /* highScore.plist */; };
+		CBA7D3E9183E7A140002B523 /* starkB@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3E4183E7A140002B523 /* starkB@2x~iPad.png */; };
+		CBA7D3EB183E7A140002B523 /* starkB~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3E6183E7A140002B523 /* starkB~ipad.png */; };
+		CBA7D3EE183E7AA50002B523 /* Game of Thrones.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3ED183E7AA50002B523 /* Game of Thrones.ttf */; };
+		CBA7D3F2183E7B560002B523 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA7D3F1183E7B560002B523 /* HomeViewController.m */; };
+		CBA7D401183E959D0002B523 /* starkB-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3FE183E959D0002B523 /* starkB-568h@2x~iphone.png */; };
+		CBA7D402183E959D0002B523 /* starkB@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3FF183E959D0002B523 /* starkB@2x~iphone.png */; };
+		CBA7D403183E959D0002B523 /* starkB~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D400183E959D0002B523 /* starkB~iphone.png */; };
+		CBA7D407183E97540002B523 /* iPadBigButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D406183E97540002B523 /* iPadBigButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,18 @@
 		CBA7D3C1183E6F8B0002B523 /* GOTTriviaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GOTTriviaTests-Info.plist"; sourceTree = "<group>"; };
 		CBA7D3C3183E6F8B0002B523 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBA7D3C5183E6F8B0002B523 /* GOTTriviaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOTTriviaTests.m; sourceTree = "<group>"; };
+		CBA7D3D1183E6FF00002B523 /* IPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPadStoryboard.storyboard; sourceTree = "<group>"; };
+		CBA7D3D3183E6FFF0002B523 /* IPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		CBA7D3D5183E70F50002B523 /* highScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = highScore.plist; sourceTree = "<group>"; };
+		CBA7D3E4183E7A140002B523 /* starkB@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB@2x~iPad.png"; path = "Background Images/Stark Images/starkB@2x~iPad.png"; sourceTree = "<group>"; };
+		CBA7D3E6183E7A140002B523 /* starkB~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB~ipad.png"; path = "Background Images/Stark Images/starkB~ipad.png"; sourceTree = "<group>"; };
+		CBA7D3ED183E7AA50002B523 /* Game of Thrones.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Game of Thrones.ttf"; path = "Fonts/Game of Thrones.ttf"; sourceTree = "<group>"; };
+		CBA7D3F0183E7B560002B523 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CBA7D3F1183E7B560002B523 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CBA7D3FE183E959D0002B523 /* starkB-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB-568h@2x~iphone.png"; path = "Background Images/Stark Images/starkB-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		CBA7D3FF183E959D0002B523 /* starkB@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB@2x~iphone.png"; path = "Background Images/Stark Images/starkB@2x~iphone.png"; sourceTree = "<group>"; };
+		CBA7D400183E959D0002B523 /* starkB~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB~iphone.png"; path = "Background Images/Stark Images/starkB~iphone.png"; sourceTree = "<group>"; };
+		CBA7D406183E97540002B523 /* iPadBigButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadBigButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +130,14 @@
 		CBA7D3A6183E6F8B0002B523 /* GOTTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				CBA7D3D0183E6FAE0002B523 /* IPad */,
+				CBA7D3CF183E6FA00002B523 /* IPhone */,
 				CBA7D3AF183E6F8B0002B523 /* GOTAppDelegate.h */,
 				CBA7D3B0183E6F8B0002B523 /* GOTAppDelegate.m */,
+				CBA7D3F0183E7B560002B523 /* HomeViewController.h */,
+				CBA7D3F1183E7B560002B523 /* HomeViewController.m */,
 				CBA7D3B2183E6F8B0002B523 /* Images.xcassets */,
+				CBA7D3D7183E74C20002B523 /* Background Images */,
 				CBA7D3A7183E6F8B0002B523 /* Supporting Files */,
 			);
 			path = GOTTrivia;
@@ -118,10 +146,12 @@
 		CBA7D3A7183E6F8B0002B523 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBA7D3EF183E7AA90002B523 /* Fonts */,
 				CBA7D3A8183E6F8B0002B523 /* GOTTrivia-Info.plist */,
 				CBA7D3A9183E6F8B0002B523 /* InfoPlist.strings */,
 				CBA7D3AC183E6F8B0002B523 /* main.m */,
 				CBA7D3AE183E6F8B0002B523 /* GOTTrivia-Prefix.pch */,
+				CBA7D3D5183E70F50002B523 /* highScore.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +172,59 @@
 				CBA7D3C2183E6F8B0002B523 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA7D3CF183E6FA00002B523 /* IPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D3D3183E6FFF0002B523 /* IPhoneStoryboard.storyboard */,
+			);
+			name = IPhone;
+			sourceTree = "<group>";
+		};
+		CBA7D3D0183E6FAE0002B523 /* IPad */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D3F7183E81A00002B523 /* Buttons */,
+				CBA7D3D1183E6FF00002B523 /* IPadStoryboard.storyboard */,
+			);
+			name = IPad;
+			sourceTree = "<group>";
+		};
+		CBA7D3D7183E74C20002B523 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D3E2183E79E50002B523 /* Stark Background */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
+		CBA7D3E2183E79E50002B523 /* Stark Background */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D3FE183E959D0002B523 /* starkB-568h@2x~iphone.png */,
+				CBA7D3FF183E959D0002B523 /* starkB@2x~iphone.png */,
+				CBA7D400183E959D0002B523 /* starkB~iphone.png */,
+				CBA7D3E4183E7A140002B523 /* starkB@2x~iPad.png */,
+				CBA7D3E6183E7A140002B523 /* starkB~ipad.png */,
+			);
+			name = "Stark Background";
+			sourceTree = "<group>";
+		};
+		CBA7D3EF183E7AA90002B523 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D3ED183E7AA50002B523 /* Game of Thrones.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CBA7D3F7183E81A00002B523 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7D406183E97540002B523 /* iPadBigButton.png */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +303,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA7D401183E959D0002B523 /* starkB-568h@2x~iphone.png in Resources */,
+				CBA7D3E9183E7A140002B523 /* starkB@2x~iPad.png in Resources */,
+				CBA7D3D2183E6FF00002B523 /* IPadStoryboard.storyboard in Resources */,
+				CBA7D407183E97540002B523 /* iPadBigButton.png in Resources */,
+				CBA7D403183E959D0002B523 /* starkB~iphone.png in Resources */,
 				CBA7D3AB183E6F8B0002B523 /* InfoPlist.strings in Resources */,
+				CBA7D402183E959D0002B523 /* starkB@2x~iphone.png in Resources */,
+				CBA7D3D6183E70F50002B523 /* highScore.plist in Resources */,
+				CBA7D3D4183E6FFF0002B523 /* IPhoneStoryboard.storyboard in Resources */,
+				CBA7D3EE183E7AA50002B523 /* Game of Thrones.ttf in Resources */,
+				CBA7D3EB183E7A140002B523 /* starkB~ipad.png in Resources */,
 				CBA7D3B3183E6F8B0002B523 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +335,7 @@
 			files = (
 				CBA7D3AD183E6F8B0002B523 /* main.m in Sources */,
 				CBA7D3B1183E6F8B0002B523 /* GOTAppDelegate.m in Sources */,
+				CBA7D3F2183E7B560002B523 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
