@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3515ED183F17EB00135F71 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3515EC183F17EB00135F71 /* SettingsViewController.m */; };
+		CB983944183ED20900904480 /* bigButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CB983941183ED20900904480 /* bigButton.png */; };
+		CB983945183ED20900904480 /* SettingsTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB983942183ED20900904480 /* SettingsTabIcon@2x.png */; };
+		CB983946183ED20900904480 /* tinyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CB983943183ED20900904480 /* tinyButton.png */; };
+		CB9E2CB91840062F002F4263 /* baratheonB-256h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9E2CB41840062F002F4263 /* baratheonB-256h@2x~iphone.png */; };
+		CB9E2CBA1840062F002F4263 /* baratheonB@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9E2CB51840062F002F4263 /* baratheonB@2x~ipad.png */; };
+		CB9E2CBB1840062F002F4263 /* baratheonB@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9E2CB61840062F002F4263 /* baratheonB@2x~iphone.png */; };
+		CB9E2CBC1840062F002F4263 /* baratheonB~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9E2CB71840062F002F4263 /* baratheonB~ipad.png */; };
+		CB9E2CBD1840062F002F4263 /* baratheonB~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9E2CB81840062F002F4263 /* baratheonB~iphone.png */; };
 		CBA7D3A1183E6F8B0002B523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7D3A0183E6F8B0002B523 /* Foundation.framework */; };
 		CBA7D3A3183E6F8B0002B523 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7D3A2183E6F8B0002B523 /* CoreGraphics.framework */; };
 		CBA7D3A5183E6F8B0002B523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7D3A4183E6F8B0002B523 /* UIKit.framework */; };
@@ -29,7 +38,17 @@
 		CBA7D401183E959D0002B523 /* starkB-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3FE183E959D0002B523 /* starkB-568h@2x~iphone.png */; };
 		CBA7D402183E959D0002B523 /* starkB@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D3FF183E959D0002B523 /* starkB@2x~iphone.png */; };
 		CBA7D403183E959D0002B523 /* starkB~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D400183E959D0002B523 /* starkB~iphone.png */; };
-		CBA7D407183E97540002B523 /* iPadBigButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA7D406183E97540002B523 /* iPadBigButton.png */; };
+		CBF86C8618404BC3004DD83C /* martellB-256h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF86C8118404BC3004DD83C /* martellB-256h@2x~iphone.png */; };
+		CBF86C8718404BC3004DD83C /* martellB@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF86C8218404BC3004DD83C /* martellB@2x~ipad.png */; };
+		CBF86C8818404BC3004DD83C /* martellB@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF86C8318404BC3004DD83C /* martellB@2x~iphone.png */; };
+		CBF86C8918404BC3004DD83C /* martellB~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF86C8418404BC3004DD83C /* martellB~ipad.png */; };
+		CBF86C8A18404BC3004DD83C /* martellB~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF86C8518404BC3004DD83C /* martellB~iphone.png */; };
+		CBFF52A1183ED28F0019EFA3 /* CategorySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF52A0183ED28F0019EFA3 /* CategorySelectionViewController.m */; };
+		CBFF52A8183ED7D00019EFA3 /* lannisterB-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF52A3183ED7D00019EFA3 /* lannisterB-568h@2x~iphone.png */; };
+		CBFF52A9183ED7D00019EFA3 /* lannisterB@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF52A4183ED7D00019EFA3 /* lannisterB@2x~ipad.png */; };
+		CBFF52AA183ED7D00019EFA3 /* lannisterB@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF52A5183ED7D00019EFA3 /* lannisterB@2x~iphone.png */; };
+		CBFF52AB183ED7D00019EFA3 /* lannisterB~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF52A6183ED7D00019EFA3 /* lannisterB~ipad.png */; };
+		CBFF52AC183ED7D00019EFA3 /* lannisterB~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF52A7183ED7D00019EFA3 /* lannisterB~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB3515EB183F17EB00135F71 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CB3515EC183F17EB00135F71 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CB983941183ED20900904480 /* bigButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton.png; sourceTree = "<group>"; };
+		CB983942183ED20900904480 /* SettingsTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsTabIcon@2x.png"; sourceTree = "<group>"; };
+		CB983943183ED20900904480 /* tinyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinyButton.png; sourceTree = "<group>"; };
+		CB9E2CB41840062F002F4263 /* baratheonB-256h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baratheonB-256h@2x~iphone.png"; sourceTree = "<group>"; };
+		CB9E2CB51840062F002F4263 /* baratheonB@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baratheonB@2x~ipad.png"; sourceTree = "<group>"; };
+		CB9E2CB61840062F002F4263 /* baratheonB@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baratheonB@2x~iphone.png"; sourceTree = "<group>"; };
+		CB9E2CB71840062F002F4263 /* baratheonB~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baratheonB~ipad.png"; sourceTree = "<group>"; };
+		CB9E2CB81840062F002F4263 /* baratheonB~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baratheonB~iphone.png"; sourceTree = "<group>"; };
 		CBA7D39D183E6F8B0002B523 /* GOTTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOTTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA7D3A0183E6F8B0002B523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBA7D3A2183E6F8B0002B523 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,7 +99,18 @@
 		CBA7D3FE183E959D0002B523 /* starkB-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB-568h@2x~iphone.png"; path = "Background Images/Stark Images/starkB-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		CBA7D3FF183E959D0002B523 /* starkB@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB@2x~iphone.png"; path = "Background Images/Stark Images/starkB@2x~iphone.png"; sourceTree = "<group>"; };
 		CBA7D400183E959D0002B523 /* starkB~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starkB~iphone.png"; path = "Background Images/Stark Images/starkB~iphone.png"; sourceTree = "<group>"; };
-		CBA7D406183E97540002B523 /* iPadBigButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadBigButton.png; sourceTree = "<group>"; };
+		CBF86C8118404BC3004DD83C /* martellB-256h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "martellB-256h@2x~iphone.png"; sourceTree = "<group>"; };
+		CBF86C8218404BC3004DD83C /* martellB@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "martellB@2x~ipad.png"; sourceTree = "<group>"; };
+		CBF86C8318404BC3004DD83C /* martellB@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "martellB@2x~iphone.png"; sourceTree = "<group>"; };
+		CBF86C8418404BC3004DD83C /* martellB~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "martellB~ipad.png"; sourceTree = "<group>"; };
+		CBF86C8518404BC3004DD83C /* martellB~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "martellB~iphone.png"; sourceTree = "<group>"; };
+		CBFF529F183ED28F0019EFA3 /* CategorySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySelectionViewController.h; sourceTree = "<group>"; };
+		CBFF52A0183ED28F0019EFA3 /* CategorySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySelectionViewController.m; sourceTree = "<group>"; };
+		CBFF52A3183ED7D00019EFA3 /* lannisterB-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lannisterB-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		CBFF52A4183ED7D00019EFA3 /* lannisterB@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lannisterB@2x~ipad.png"; sourceTree = "<group>"; };
+		CBFF52A5183ED7D00019EFA3 /* lannisterB@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lannisterB@2x~iphone.png"; sourceTree = "<group>"; };
+		CBFF52A6183ED7D00019EFA3 /* lannisterB~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lannisterB~ipad.png"; sourceTree = "<group>"; };
+		CBFF52A7183ED7D00019EFA3 /* lannisterB~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lannisterB~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +137,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB983940183ED20900904480 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CB983941183ED20900904480 /* bigButton.png */,
+				CB983942183ED20900904480 /* SettingsTabIcon@2x.png */,
+				CB983943183ED20900904480 /* tinyButton.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CB9E2CB31840062F002F4263 /* Baratheon Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB9E2CB41840062F002F4263 /* baratheonB-256h@2x~iphone.png */,
+				CB9E2CB51840062F002F4263 /* baratheonB@2x~ipad.png */,
+				CB9E2CB61840062F002F4263 /* baratheonB@2x~iphone.png */,
+				CB9E2CB71840062F002F4263 /* baratheonB~ipad.png */,
+				CB9E2CB81840062F002F4263 /* baratheonB~iphone.png */,
+			);
+			name = "Baratheon Images";
+			path = "Background Images/Baratheon Images";
+			sourceTree = "<group>";
+		};
 		CBA7D394183E6F8B0002B523 = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +199,12 @@
 				CBA7D3B0183E6F8B0002B523 /* GOTAppDelegate.m */,
 				CBA7D3F0183E7B560002B523 /* HomeViewController.h */,
 				CBA7D3F1183E7B560002B523 /* HomeViewController.m */,
+				CBFF529F183ED28F0019EFA3 /* CategorySelectionViewController.h */,
+				CBFF52A0183ED28F0019EFA3 /* CategorySelectionViewController.m */,
+				CB3515EB183F17EB00135F71 /* SettingsViewController.h */,
+				CB3515EC183F17EB00135F71 /* SettingsViewController.m */,
 				CBA7D3B2183E6F8B0002B523 /* Images.xcassets */,
+				CB983940183ED20900904480 /* Buttons */,
 				CBA7D3D7183E74C20002B523 /* Background Images */,
 				CBA7D3A7183E6F8B0002B523 /* Supporting Files */,
 			);
@@ -185,7 +253,6 @@
 		CBA7D3D0183E6FAE0002B523 /* IPad */ = {
 			isa = PBXGroup;
 			children = (
-				CBA7D3F7183E81A00002B523 /* Buttons */,
 				CBA7D3D1183E6FF00002B523 /* IPadStoryboard.storyboard */,
 			);
 			name = IPad;
@@ -194,6 +261,9 @@
 		CBA7D3D7183E74C20002B523 /* Background Images */ = {
 			isa = PBXGroup;
 			children = (
+				CBF86C8018404BC3004DD83C /* Martell Images */,
+				CB9E2CB31840062F002F4263 /* Baratheon Images */,
+				CBFF52A2183ED7D00019EFA3 /* Lannister Background */,
 				CBA7D3E2183E79E50002B523 /* Stark Background */,
 			);
 			name = "Background Images";
@@ -219,12 +289,30 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		CBA7D3F7183E81A00002B523 /* Buttons */ = {
+		CBF86C8018404BC3004DD83C /* Martell Images */ = {
 			isa = PBXGroup;
 			children = (
-				CBA7D406183E97540002B523 /* iPadBigButton.png */,
+				CBF86C8118404BC3004DD83C /* martellB-256h@2x~iphone.png */,
+				CBF86C8218404BC3004DD83C /* martellB@2x~ipad.png */,
+				CBF86C8318404BC3004DD83C /* martellB@2x~iphone.png */,
+				CBF86C8418404BC3004DD83C /* martellB~ipad.png */,
+				CBF86C8518404BC3004DD83C /* martellB~iphone.png */,
 			);
-			name = Buttons;
+			name = "Martell Images";
+			path = "Background Images/Martell Images";
+			sourceTree = "<group>";
+		};
+		CBFF52A2183ED7D00019EFA3 /* Lannister Background */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF52A3183ED7D00019EFA3 /* lannisterB-568h@2x~iphone.png */,
+				CBFF52A4183ED7D00019EFA3 /* lannisterB@2x~ipad.png */,
+				CBFF52A5183ED7D00019EFA3 /* lannisterB@2x~iphone.png */,
+				CBFF52A6183ED7D00019EFA3 /* lannisterB~ipad.png */,
+				CBFF52A7183ED7D00019EFA3 /* lannisterB~iphone.png */,
+			);
+			name = "Lannister Background";
+			path = "Background Images/Lannister Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,17 +391,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9E2CBB1840062F002F4263 /* baratheonB@2x~iphone.png in Resources */,
+				CBF86C8A18404BC3004DD83C /* martellB~iphone.png in Resources */,
+				CB983946183ED20900904480 /* tinyButton.png in Resources */,
+				CBFF52A9183ED7D00019EFA3 /* lannisterB@2x~ipad.png in Resources */,
+				CBF86C8918404BC3004DD83C /* martellB~ipad.png in Resources */,
 				CBA7D401183E959D0002B523 /* starkB-568h@2x~iphone.png in Resources */,
 				CBA7D3E9183E7A140002B523 /* starkB@2x~iPad.png in Resources */,
+				CBF86C8618404BC3004DD83C /* martellB-256h@2x~iphone.png in Resources */,
+				CB9E2CBC1840062F002F4263 /* baratheonB~ipad.png in Resources */,
 				CBA7D3D2183E6FF00002B523 /* IPadStoryboard.storyboard in Resources */,
-				CBA7D407183E97540002B523 /* iPadBigButton.png in Resources */,
 				CBA7D403183E959D0002B523 /* starkB~iphone.png in Resources */,
 				CBA7D3AB183E6F8B0002B523 /* InfoPlist.strings in Resources */,
+				CB9E2CB91840062F002F4263 /* baratheonB-256h@2x~iphone.png in Resources */,
+				CB9E2CBA1840062F002F4263 /* baratheonB@2x~ipad.png in Resources */,
 				CBA7D402183E959D0002B523 /* starkB@2x~iphone.png in Resources */,
 				CBA7D3D6183E70F50002B523 /* highScore.plist in Resources */,
+				CB983944183ED20900904480 /* bigButton.png in Resources */,
 				CBA7D3D4183E6FFF0002B523 /* IPhoneStoryboard.storyboard in Resources */,
+				CBF86C8718404BC3004DD83C /* martellB@2x~ipad.png in Resources */,
+				CB9E2CBD1840062F002F4263 /* baratheonB~iphone.png in Resources */,
+				CBF86C8818404BC3004DD83C /* martellB@2x~iphone.png in Resources */,
+				CB983945183ED20900904480 /* SettingsTabIcon@2x.png in Resources */,
+				CBFF52AB183ED7D00019EFA3 /* lannisterB~ipad.png in Resources */,
 				CBA7D3EE183E7AA50002B523 /* Game of Thrones.ttf in Resources */,
+				CBFF52A8183ED7D00019EFA3 /* lannisterB-568h@2x~iphone.png in Resources */,
+				CBFF52AA183ED7D00019EFA3 /* lannisterB@2x~iphone.png in Resources */,
 				CBA7D3EB183E7A140002B523 /* starkB~ipad.png in Resources */,
+				CBFF52AC183ED7D00019EFA3 /* lannisterB~iphone.png in Resources */,
 				CBA7D3B3183E6F8B0002B523 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA7D3AD183E6F8B0002B523 /* main.m in Sources */,
+				CBFF52A1183ED28F0019EFA3 /* CategorySelectionViewController.m in Sources */,
+				CB3515ED183F17EB00135F71 /* SettingsViewController.m in Sources */,
 				CBA7D3B1183E6F8B0002B523 /* GOTAppDelegate.m in Sources */,
 				CBA7D3F2183E7B560002B523 /* HomeViewController.m in Sources */,
 			);
@@ -456,10 +563,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Hicklin (LF63P235BP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GOTTrivia/GOTTrivia-Prefix.pch";
 				INFOPLIST_FILE = "GOTTrivia/GOTTrivia-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "26DF90CD-2420-48B4-A0B8-32F0360E2A47";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -469,10 +578,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Hicklin (LF63P235BP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GOTTrivia/GOTTrivia-Prefix.pch";
 				INFOPLIST_FILE = "GOTTrivia/GOTTrivia-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "26DF90CD-2420-48B4-A0B8-32F0360E2A47";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -538,6 +649,7 @@
 				CBA7D3CB183E6F8B0002B523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBA7D3CC183E6F8B0002B523 /* Build configuration list for PBXNativeTarget "GOTTriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +658,7 @@
 				CBA7D3CE183E6F8B0002B523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

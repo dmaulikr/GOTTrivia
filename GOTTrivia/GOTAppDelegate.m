@@ -38,6 +38,11 @@
     [fileManager copyItemAtPath:sourcePath toPath:destPath error:nil];
   }
   
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if ([defaults stringForKey:@"theme"] == nil) {
+    [defaults setObject:@"starkB.png" forKey:@"theme"];
+  }
+  
   return YES;
 }
 

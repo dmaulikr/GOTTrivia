@@ -1,38 +1,39 @@
 //
-//  HomeViewController.m
+//  CategorySelectionViewController.m
 //  GOTTrivia
 //
-//  Created by James Hicklin on 11/21/2013.
+//  Created by James Hicklin on 2013-11-21.
 //  Copyright (c) 2013 James Hicklin. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "CategorySelectionViewController.h"
 
 #define IDIOM    UI_USER_INTERFACE_IDIOM()
 #define IPAD     UIUserInterfaceIdiomPad
 
-@interface HomeViewController ()
+@interface CategorySelectionViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation CategorySelectionViewController
 
 @synthesize titleLabel;
 @synthesize backgroundImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+  if (self) {
+    // Custom initialization
+  }
+  return self;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view.
+  
   if (IDIOM == IPAD) {
     [titleLabel setFont:[UIFont fontWithName:@"Game Of Thrones" size:65]];
   }
@@ -54,24 +55,8 @@
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
-
-
-// unwind identifier
--(IBAction)unwindToMainMenu:(UIStoryboardSegue *)segue
-{}
-
-- (IBAction)newGameClick:(id)sender {
-  
-  [self performSegueWithIdentifier:@"newGameSegue" sender:self];
-  
-}
-
-- (IBAction)settingsClick:(id)sender {
-  
-    [self performSegueWithIdentifier:@"settingsSegue" sender:self];
-}
 @end

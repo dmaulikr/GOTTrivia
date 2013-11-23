@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  SettingsViewController.h
 //  GOTTrivia
 //
 //  Created by James Hicklin on 11/21/2013.
@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface SettingsViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UILabel *themeTitleLabel;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *themeSeg;
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 
-- (IBAction)newGameClick:(id)sender;
-- (IBAction)settingsClick:(id)sender;
+- (IBAction)changeTheme:(id)sender;
 
 @end

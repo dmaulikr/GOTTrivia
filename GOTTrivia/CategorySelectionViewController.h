@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  CategorySelectionViewController.h
 //  GOTTrivia
 //
 //  Created by James Hicklin on 11/21/2013.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface CategorySelectionViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
-
-- (IBAction)newGameClick:(id)sender;
-- (IBAction)settingsClick:(id)sender;
 
 @end
