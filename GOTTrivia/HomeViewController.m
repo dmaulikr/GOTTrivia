@@ -44,6 +44,7 @@
 -(void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  //NSLog([defaults stringForKey:@"theme"],nil);
   [backgroundImage setImage:[UIImage imageNamed:[defaults stringForKey:@"theme"]]];
 }
 

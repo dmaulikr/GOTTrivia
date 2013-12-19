@@ -6,19 +6,26 @@
 //  Copyright (c) 2013 James Hicklin. All rights reserved.
 //
 
-#import "CategorySelectionViewController.h"
+#import "DifficultySelectionViewController.h"
+#import "NumberOfQuestionsViewController.h"
 
 #define IDIOM    UI_USER_INTERFACE_IDIOM()
 #define IPAD     UIUserInterfaceIdiomPad
 
-@interface CategorySelectionViewController ()
+@interface DifficultySelectionViewController ()
 
 @end
 
-@implementation CategorySelectionViewController
+@implementation DifficultySelectionViewController
 
+@synthesize selectedDifficulty;
 @synthesize titleLabel;
 @synthesize backgroundImage;
+@synthesize easyButton;
+@synthesize mediumButton;
+@synthesize hardButton;
+@synthesize impossibleButton;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -48,6 +55,10 @@
   [backgroundImage setImage:[UIImage imageNamed:[defaults stringForKey:@"theme"]]];
 }
 
+// unwind identifier
+-(IBAction)unwindToDifficultySelection:(UIStoryboardSegue *)segue
+{}
+
 -(BOOL) prefersStatusBarHidden
 {
   return YES;
@@ -58,5 +69,34 @@
   [super didReceiveMemoryWarning];
   // Dispose of any resources that can be recreated.
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  
+  if ([segue.identifier isEqual:@"numberOfQuestionsSegue"]) {
+    NumberOfQuestionsViewController *dest = segue.destinationViewController;
+    dest.difficulty = selectedDifficulty;
+  }
+  
+}
+
+- (IBAction)selectedDifficulty:(id)sender {
+  
+  selectedDifficulty = [self getSelectedDifficulty:sender];
+  [self performSegueWithIdentifier:@"numberOfQuestionsSegue" sender:self];
+  
+}
+
+- (NSString*)getSelectedDifficulty:(id)button {
+  
+  if (button == easyButton)
+    return @"Easy";
+  else if (button == mediumButton)
+    return @"Medium";
+  else if (button == hardButton)
+    return @"Hard";
+  else
+    return @"Impossible";
+}
+
 
 @end

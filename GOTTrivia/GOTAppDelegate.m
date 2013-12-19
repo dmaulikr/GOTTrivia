@@ -12,6 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  // set image before makeKeyAndVisible, otherwise it doesn't show on first launch.
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  if (![[[defaults dictionaryRepresentation] allKeys] containsObject:@"theme"]) {
+    [defaults setObject:@"starkB.png" forKey:@"theme"];
+  }
+  
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   // Override point for customization after application launch.
   UIStoryboard *storyboard;
@@ -36,11 +42,6 @@
   if (![fileManager fileExistsAtPath:destPath]) {
     NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"highScore" ofType:@"plist"];
     [fileManager copyItemAtPath:sourcePath toPath:destPath error:nil];
-  }
-  
-  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-  if ([defaults stringForKey:@"theme"] == nil) {
-    [defaults setObject:@"starkB.png" forKey:@"theme"];
   }
   
   return YES;
